@@ -48,4 +48,4 @@ class NetToLocalSvc(win32serviceutil.ServiceFramework):
 		log_file.close() 
 
 if (__name__ == '__main__'):
-	win32serviceutil.HandleCommandLine(NetToLocalSvc)
+	win32serviceutil.HandleCommandLine(NetToLocalSvc) 
